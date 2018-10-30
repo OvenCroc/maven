@@ -3,7 +3,7 @@
   <groupId>com.feinno.androidframe</groupId>
   <artifactId>androidframe-release</artifactId>
   <versioning>
-    <release>1.0.0.33</release>
+    <release>1.0.0.35</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.0.1</version>
@@ -38,7 +38,9 @@
       <version>1.0.0.31</version>
       <version>1.0.0.32</version>
       <version>1.0.0.33</version>
+      <version>1.0.0.34</version>
+      <version>1.0.0.35</version>
     </versions>
-    <lastUpdated>20181030024916</lastUpdated>
+    <lastUpdated>20181030084955</lastUpdated>
   </versioning>
 </metadata>
