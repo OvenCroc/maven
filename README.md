@@ -7,6 +7,33 @@
 
 2. module
 在module的build.gradle文件dependencies中添加<br>
+`implementation 'com.xhl.dyvideo.demand:dyvideo-relase:1.0.0'`
+
+
+
+# **dyvideo(万州视频组件库)**
+
+1. XHLVideoView
+    >描述:
+    >这个view是继承GSYStandardPlayer重写的一个播放view，我们的项目最好也是用这个View进行开发，期间如果有什么问题可以直接联系我
+
+    主要api:(因为直接是继承的，所以GSYStandardPlayer播放方法，同样适用于我们的XHLVideoView，这里我会主要介绍几种用法，之后会慢慢补充)
+    * 初始化video信息 --> setVideoUrl(String videoUrl,boolean needCacheWhenPlay,String videoTitle)
+    * 播放视频  -->  startPlay()
+    * 暂停播放  --> onPause()
+    * 继续播放  --> onResume()
+    * 释放资源  --> onRelease()
+    * 跳转播放  --> seekTo(long postion,boolean isNeedPlay)
+
+    使用方法: # 使用方法
+1. project
+在主项目的build.gradle文件的allprojects->repositories中添加<br>
+`maven {
+    url "https://raw.githubusercontent.com/OvenCroc/maven/master"
+}`
+
+2. module
+在module的build.gradle文件dependencies中添加<br>
 `implementation 'com.feinno.androidframe:androidframe-release:这里添加对于的版本号'`
 
 
