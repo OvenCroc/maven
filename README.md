@@ -7,7 +7,7 @@
 
 2. module
 在module的build.gradle文件dependencies中添加<br>
-`implementation 'com.feinno.androidframe:androidframe-release:这里添加对于的版本号'`
+`implementation 'com.xhl.dyvideo.demand:dyvideo-relase:这里添加对于的版本号'`
 
 
 
